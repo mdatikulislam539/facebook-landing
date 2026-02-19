@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN Premium - KSA & Qatar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>VPN Service with Atikul </h2>
+    <p>Please fill out the form / ফরমটি পূরণ করুন</p>
+    
+    <form id="vpnOrderForm">
+        <div class="form-group">
+            <label>Full Name (আপনার নাম):</label>
+            <input type="text" id="custName" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Select SIM Network (সিম নির্বাচন করুন):</label>
+            <select id="simNetwork" required>
+                <option value="">-- Select SIM --</option>
+                <option value="STC">STC (Sawa)</option>
+                <option value="Mobily 30/60 Package">Mobily 30/60 Package</option>
+                <option value="Zain">Zain</option>
+                <option value="Lebara">Lebara</option>
+                <option value="Friendi">Friendi</option>
+                <option value="Ooredoo">Ooredoo (Qatar)</option>
+                <option value="Vodafone">Vodafone (Qatar)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Payment Method (পেমেন্ট পদ্ধতি):</label>
+            <div class="payment-box">
+                <label class="payment-option">
+                    <input type="radio" name="payMethod" value="bKash" checked> 
+                    bKash (বিকাশ)
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payMethod" value="Recharge Card"> 
+                    Recharge Card (রিচার্জ কার্ড)
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payMethod" value="Bank Transfer"> 
+                    Bank Transfer (ব্যাংক ট্রান্সফার)
+                </label>
+            </div>
+        </div>
+
+        <button type="button" id="submitBtn">ORDER VIA WHATSAPP (অর্ডার করুন)</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
