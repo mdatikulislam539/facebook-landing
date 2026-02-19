@@ -5,7 +5,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     const payment = document.querySelector('input[name="payMethod"]:checked').value;
     
     // আপনার হোয়াটসঅ্যাপ নম্বর এখানে লিখুন (যেমন: 8801700000000)
-    const myNumber = "8801XXXXXXXXX"; 
+    const myNumber = "+8801349967157"; 
 
     // মেসেজ টেক্সট তৈরি
     // এখানে কোনো 'if' কন্ডিশন নেই, তাই বাটন ক্লিক করলেই সরাসরি হোয়াটসঅ্যাপে যাবে
